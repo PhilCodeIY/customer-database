@@ -1,0 +1,56 @@
+h1{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2{
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+h5{
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+hr{
+  20;
+  color:green;
+  border-color: #00FF00;
+}
+
+#SSN{
+color: #00FF00;
+text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+#container{
+  width: 1400px;
+
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  line-height: 10px;
+}
+
+#Employees{
+  width: 300px;
+  height: 600px;
+  text-align: center;
+  font-weight: lighter;
+  margin: 5px 5px
+}
+img{
+  width: 280px;
+  height: 280px;
+}
+#image{
+  width: 300px;
+  height: 300px;
+}
