@@ -9,8 +9,8 @@ h2{
   text-align: center;
   text-transform: uppercase;
   font-size: 18px;
-
 }
+
 h5{
   font-family: sans-serif;
   font-weight: lighter;
@@ -23,21 +23,14 @@ p{
 }
 
 hr{
-
   margin-right:50px;
   margin-left: 50px;
   width:auto;
-  border-color: #00FF00;
-}
-
-#SSN{
-color: #00FF00;
-text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  border-color: #35AF54;
 }
 
 #container{
   width: 1400px;
-
   display: flex;
   flex-wrap: wrap;
   text-transform: uppercase;
@@ -51,11 +44,17 @@ text-shadow: 0 0 5px rgba(0,0,0,0.5);
   font-weight: lighter;
   margin: 5px 5px
 }
+
 img{
   width: 280px;
   height: 280px;
 }
-#image{
-  width: 300px;
-  height: 300px;
+
+#SSN{
+color: #E2DFDF;
+text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+a.blurry:hover{
+  color: #35AF54;
 }

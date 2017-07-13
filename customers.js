@@ -9,7 +9,6 @@ customers.results.forEach(function(customer){
 htmlString += `
 <div id="Employees">
 <img src="${customer.picture.large}"/>
-
 <h2>${customer.name.first} ${customer.name.last} <hr></h2>
 <h5>${customer.email}</h5>
 <p>${customer.location.street}</p>
@@ -18,9 +17,8 @@ htmlString += `
 <br>
 <br>
 <br>
-<div id="SSN">${customer.id.value}</div>
+<div id="SSN"><a class="blurry">${customer.id.value}</a></div>
 </div>
-
 `
 })
 
